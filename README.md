@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Frontend Engineer Coding Skill Test - Carvach
 
-First, run the development server:
+Dear Chirag,
+As the next step in the hiring process we expect you to complete the following assignment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Instructions:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The task aims to evaluate your proficiency in frontend development, particularly in JavaScript, ReactJS, HTML, CSS, and related technologies.
+The test consists of creating a simple web application using ReactJS and Next.js.
+You have a total of 3 hours to complete the tasks.
+Once finished, submit the code in a GitHub repository or a zipped file along with a brief explanation of your implementation choices and any assumptions made. Mail it to: <Ashish@carvach.com>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tasks:
+Setup and Component Creation:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Initialize a new ReactJS project using Next.js.
+Create a header component that includes a logo and navigation links.
+Develop a sidebar component with links and a search bar.
+User-Facing Feature Development:
 
-## Learn More
+Implement a form component with fields for username, email, and password.
+Include form validation for the email field.
+On successful form submission, log the form data to the console.
 
-To learn more about Next.js, take a look at the following resources:
+Styling and Responsiveness:
+Style the components to achieve a visually appealing layout using CSS or a preprocessor like Sass/SCSS.
+Ensure responsiveness across different screen sizes (desktop, tablet, mobile).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Advanced Task (Optional - For TypeScript proficiency):
+Refactor the existing code to incorporate TypeScript.
+Use TypeScript interfaces or types to define the data structure for the form.
+Browser-based Debugging and Performance Testing:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Debug the application to ensure it functions without errors.
+Perform basic performance testing using browser tools to identify and optimize any bottlenecks.
 
-## Deploy on Vercel
+Optional: Utilization of TypeScript and effective debugging/performance testing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Note: Feel free to make assumptions where necessary and add comments to explain your code reasonings.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deadline: 3 days after receiving this mail.
