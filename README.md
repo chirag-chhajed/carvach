@@ -1,5 +1,7 @@
 # CarVach Assignment
 
+[https://carvach.vercel.app/](https://carvach.vercel.app/)
+
 ## Description
 
 CarVach Assignment is a Next.js web application that showcases various features including styling, form handling, and API integration. It is built with Node.js.This project was created as an assignment for CarVach and serves as a practical demonstration of skills in Next.js, Node.js, and TypeScript.
@@ -42,14 +44,14 @@ CarVach Assignment is a Next.js web application that showcases various features 
 
 ## Pages
 
-### 1. Landing Page (`/`)
+### 1. Landing Page ([/](https://carvach.vercel.app/))
 
 The landing page demonstrates styling skills and features a sidebar component.
 
-### 2. Signin Page (`/signin`)
+### 2. Signin Page ([/signin](https://carvach.vercel.app/signin))
 
 The signin page includes a form component. When the form is submitted, the email and password are logged to the console.
 
-### 3. Products Page (`/products`)
+### 3. Products Page ([/products](https://carvach.vercel.app/products))
 
 The products page fetches data from an API using server actions and implements a search box for enhanced user experience.
