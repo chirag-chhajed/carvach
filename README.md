@@ -1,42 +1,55 @@
+# CarVach Assignment
 
-# Frontend Engineer Coding Skill Test - Carvach
+## Description
 
-Dear Chirag,
-As the next step in the hiring process we expect you to complete the following assignment.
+CarVach Assignment is a Next.js web application that showcases various features including styling, form handling, and API integration. It is built with Node.js and offers two different ways to run the application: using Node.js directly or through Docker.
 
-Instructions:
+## Ways to Use
 
-The task aims to evaluate your proficiency in frontend development, particularly in JavaScript, ReactJS, HTML, CSS, and related technologies.
-The test consists of creating a simple web application using ReactJS and Next.js.
-You have a total of 3 hours to complete the tasks.
-Once finished, submit the code in a GitHub repository or a zipped file along with a brief explanation of your implementation choices and any assumptions made. Mail it to: <Ashish@carvach.com>
+### Using Node.js
 
-Tasks:
-Setup and Component Creation:
+1. Install Node.js: Make sure you have Node.js installed on your machine.
 
-Initialize a new ReactJS project using Next.js.
-Create a header component that includes a logo and navigation links.
-Develop a sidebar component with links and a search bar.
-User-Facing Feature Development:
+2. Clone the repository:
 
-Implement a form component with fields for username, email, and password.
-Include form validation for the email field.
-On successful form submission, log the form data to the console.
+   ```bash
+   git clone https://github.com/chirag-chhajed/
+   ```
 
-Styling and Responsiveness:
-Style the components to achieve a visually appealing layout using CSS or a preprocessor like Sass/SCSS.
-Ensure responsiveness across different screen sizes (desktop, tablet, mobile).
+3. Navigate to the project directory:
 
-Advanced Task (Optional - For TypeScript proficiency):
-Refactor the existing code to incorporate TypeScript.
-Use TypeScript interfaces or types to define the data structure for the form.
-Browser-based Debugging and Performance Testing:
+   ```bash
+   cd CarVachAssignment
+   ```
 
-Debug the application to ensure it functions without errors.
-Perform basic performance testing using browser tools to identify and optimize any bottlenecks.
+4. Install dependencies:
 
-Optional: Utilization of TypeScript and effective debugging/performance testing.
+   ```bash
+   npm install
+   ```
 
-Note: Feel free to make assumptions where necessary and add comments to explain your code reasonings.
+5. Start the application:
 
-Deadline: 3 days after receiving this mail.
+   ```bash
+   npm run dev
+   ```
+
+   or build and start:
+
+   ```bash
+   npm build && npm run start
+   ```
+
+## Pages
+
+### 1. Landing Page (`/`)
+
+The landing page demonstrates styling skills and features a sidebar component.
+
+### 2. Signin Page (`/signin`)
+
+The signin page includes a form component. When the form is submitted, the email and password are logged to the console.
+
+### 3. Products Page (`/products`)
+
+The products page fetches data from an API using server actions and implements a search box for enhanced user experience.
