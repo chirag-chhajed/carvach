@@ -2,7 +2,7 @@
 
 ## Description
 
-CarVach Assignment is a Next.js web application that showcases various features including styling, form handling, and API integration. It is built with Node.js and offers two different ways to run the application: using Node.js directly or through Docker.
+CarVach Assignment is a Next.js web application that showcases various features including styling, form handling, and API integration. It is built with Node.js.
 
 ## Ways to Use
 
@@ -13,13 +13,13 @@ CarVach Assignment is a Next.js web application that showcases various features 
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/chirag-chhajed/
+   git clone https://github.com/chirag-chhajed/carvach
    ```
 
 3. Navigate to the project directory:
 
    ```bash
-   cd CarVachAssignment
+   cd carvach
    ```
 
 4. Install dependencies:
