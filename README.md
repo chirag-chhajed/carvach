@@ -2,7 +2,7 @@
 
 ## Description
 
-CarVach Assignment is a Next.js web application that showcases various features including styling, form handling, and API integration. It is built with Node.js.
+CarVach Assignment is a Next.js web application that showcases various features including styling, form handling, and API integration. It is built with Node.js.This project was created as an assignment for CarVach and serves as a practical demonstration of skills in Next.js, Node.js, and TypeScript.
 
 ## Ways to Use
 
